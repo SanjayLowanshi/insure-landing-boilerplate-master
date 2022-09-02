@@ -7,8 +7,12 @@ const Home = () => {
   return (
     <div>
       <Hero />
-      <Info />
-      <Banner />
+      <section className="section1">
+        <Info />
+      </section>
+      <section className="section2">
+        <Banner />
+      </section>
     </div>
   );
 };
